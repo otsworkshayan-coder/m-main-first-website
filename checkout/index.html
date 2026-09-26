@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATHLETIX | Checkout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="checkout-page">
+        <a class="back-link" href="../index.html">&larr; Back to store</a>
+
+        <header class="checkout-header">
+            <p>ATHLETIX CHECKOUT</p>
+            <h1>Complete Your Order</h1>
+            <span>Secure delivery details for your selected equipment.</span>
+        </header>
+
+        <div class="checkout-layout">
+            <form id="checkout-form" class="checkout-form">
+                <h2>Delivery Details</h2>
+
+                <label for="customer-name">Full Name</label>
+                <input type="text" id="customer-name" name="name" placeholder="Enter your full name" autocomplete="name" required>
+
+                <label for="customer-email">Email Address</label>
+                <input type="email" id="customer-email" name="email" placeholder="Enter your email address" autocomplete="email" required>
+
+                <label for="customer-phone">Phone Number</label>
+                <input type="tel" id="customer-phone" name="phone" placeholder="Enter your phone number" autocomplete="tel" required>
+
+                <label for="customer-address">Delivery Address</label>
+                <textarea id="customer-address" name="address" rows="4" placeholder="Enter your complete delivery address" autocomplete="street-address" required></textarea>
+
+                <label for="customer-location">City / Postal Code</label>
+                <input type="text" id="customer-location" name="location" placeholder="Enter your city and postal code" autocomplete="postal-code" required>
+
+                <button type="submit">Place Order</button>
+                <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+            </form>
+
+            <aside class="order-summary">
+                <p class="eyebrow">YOUR CART</p>
+                <h2>Order Summary</h2>
+                <div id="order-items"></div>
+                <div class="summary-total">
+                    <span>Total</span>
+                    <strong id="order-total">$0.00</strong>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATHLETIX | Premium Sports Equipment</title>
+    <meta name="description" content="ATHLETIX sells premium football, basketball, fitness and tennis equipment built for athletes who train hard and play harder. Fast delivery, easy returns.">
+
+    <meta property="og:title" content="ATHLETIX | Premium Sports Equipment">
+    <meta property="og:description" content="Premium sports equipment for athletes who demand performance, quality and style.">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23050607'/%3E%3Ctext x='50' y='68' font-size='60' font-family='Arial, sans-serif' font-weight='900' fill='%23c8ff00' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <!-- Header -->
+    <header>
+
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <strong>ATHLETIX</strong>
+                </a>
+            </div>
+
+            <nav id="primary-nav" aria-label="Primary">
+                <a href="#home">Home</a>
+                <a href="#shop">Shop</a>
+                <a href="#categories">Categories</a>
+                <a href="#offers">Offers</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="header-actions">
+                <a href="#shop" id="search-toggle" aria-label="Search products" aria-expanded="false"><span class="icon" aria-hidden="true">⌕</span></a>
+                <a href="#shop" id="cart-toggle" aria-label="View cart" class="cart-link" aria-expanded="false">
+                    <span class="icon" aria-hidden="true">🛒</span>
+                    <span class="cart-count" id="cart-count" aria-hidden="true">0</span>
+                </a>
+                <a href="#" aria-label="My account"><span class="icon" aria-hidden="true">◉</span></a>
+
+                <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+
+        <div class="search-panel" id="search-panel" aria-hidden="true">
+            <label for="product-search">Search products</label>
+            <input type="search" id="product-search" placeholder="Search football, fitness..." autocomplete="off">
+            <p id="search-status" role="status" aria-live="polite"></p>
+        </div>
+
+        <aside class="cart-panel" id="cart-panel" aria-hidden="true" aria-labelledby="cart-heading">
+            <div class="cart-panel-heading">
+                <h2 id="cart-heading">Your Cart</h2>
+                <button type="button" id="close-cart" aria-label="Close cart">&times;</button>
+            </div>
+            <div id="cart-items">
+                <p class="cart-empty">Your cart is empty.</p>
+            </div>
+            <div class="cart-total">
+                <span>Total</span>
+                <strong id="cart-total-value">$0.00</strong>
+            </div>
+            <button type="button" class="cart-confirm" id="confirm-order">Confirm Order</button>
+            <p class="cart-note" id="cart-note" role="status" aria-live="polite"></p>
+        </aside>
+
+    </header>
+
+
+    <main id="main-content">
+
+        <!-- Hero Section -->
+        <section id="home">
+
+            <div>
+                <p>PREMIUM SPORTS EQUIPMENT</p>
+
+                <h1>
+                    TRAIN HARD.<br>
+                    PLAY HARDER.
+                </h1>
+
+                <p>
+                    Discover premium sports equipment designed for
+                    athletes who demand performance, quality and style.
+                </p>
+
+                <a href="#shop">SHOP NOW</a>
+                <a href="#categories">EXPLORE COLLECTION</a>
+            </div>
+
+            <div class="hero-image-container">
+                <img
+                    src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=900&h=1000&q=85"
+                    width="900" height="1000"
+                    alt="Athlete holding premium sports equipment">
+            </div>
+
+        </section>
+
+
+        <!-- Features -->
+        <section aria-labelledby="why-heading">
+
+            <h2 id="why-heading">Why Choose ATHLETIX?</h2>
+
+            <div>
+
+                <article>
+                    <h3>Premium Quality</h3>
+                    <p>
+                        High-quality equipment selected for professional
+                        performance and long-lasting durability.
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Fast Delivery</h3>
+                    <p>
+                        Get your sports equipment delivered quickly
+                        and safely to your doorstep.
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Easy Returns</h3>
+                    <p>
+                        Simple and convenient returns whenever
+                        you need them.
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Expert Support</h3>
+                    <p>
+                        Our team is always ready to help you choose
+                        the right equipment.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Categories -->
+        <section id="categories">
+
+            <p>SHOP BY CATEGORY</p>
+
+            <h2>Find Your Game</h2>
+
+            <div>
+
+                <article>
+                    <img
+                        src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=500&h=380&q=85"
+                        width="500" height="380" loading="lazy"
+                        alt="Football boots and a ball laid out on grass">
+
+                    <h3>Football</h3>
+
+                    <p>
+                        Footballs, boots, gloves and training equipment.
+                    </p>
+
+                    <a href="#shop">Shop Football →</a>
+                </article>
+
+
+                <article>
+                    <img
+                        src="https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=500&h=380&q=85"
+                        width="500" height="380" loading="lazy"
+                        alt="Basketball and high-top shoes on a court">
+
+                    <h3>Basketball</h3>
+
+                    <p>
+                        Basketballs, shoes and professional accessories.
+                    </p>
+
+                    <a href="#shop">Shop Basketball →</a>
+                </article>
+
+
+                <article>
+                    <img
+                        src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=500&h=380&q=85"
+                        width="500" height="380" loading="lazy"
+                        alt="Dumbbells and resistance bands in a home gym">
+
+                    <h3>Fitness</h3>
+
+                    <p>
+                        Dumbbells, resistance bands and workout equipment.
+                    </p>
+
+                    <a href="#shop">Shop Fitness →</a>
+                </article>
+
+
+                <article>
+                    <img
+                        src="https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&w=500&h=380&q=85"
+                        width="500" height="380" loading="lazy"
+                        alt="Tennis racket and ball on a court">
+
+                    <h3>Tennis</h3>
+
+                    <p>
+                        Professional rackets, balls and tennis accessories.
+                    </p>
+
+                    <a href="#shop">Shop Tennis →</a>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Products -->
+        <section id="shop">
+
+            <p>BEST SELLERS</p>
+
+            <h2>Popular Products</h2>
+
+            <div>
+
+                <!-- Product 1 -->
+                <article>
+
+                    <div class="product-media">
+                        <img
+                            src="https://static-01.daraz.pk/p/f8376133cd405af569465bf42d1c76ce.png"
+                            width="500" height="500" loading="lazy"
+                            alt="Pro Match Football">
+                        <span class="badge">-20%</span>
+                    </div>
+
+                    <p>FOOTBALL</p>
+
+                    <h3>Pro Match Football</h3>
+
+                    <p class="rating" role="img" aria-label="Rated 5 out of 5 stars">
+                        ★★★★★
+                    </p>
+
+                    <p class="price">
+                        <strong>$79.00</strong>
+                        <del>$99.00</del>
+                    </p>
+
+                    <a href="#" class="add-to-cart">Add to Cart</a>
+
+                </article>
+
+
+                <!-- Product 2 -->
+                <article>
+
+                    <div class="product-media">
+                        <img
+                            src="https://images.unsplash.com/photo-1519861531473-9200262188bf?auto=format&fit=crop&w=500&h=500&q=85"
+                            width="500" height="500" loading="lazy"
+                            alt="Elite Grip Basketball">
+                    </div>
+
+                    <p>BASKETBALL</p>
+
+                    <h3>Elite Grip Basketball</h3>
+
+                    <p class="rating" role="img" aria-label="Rated 5 out of 5 stars">
+                        ★★★★★
+                    </p>
+
+                    <p class="price">
+                        <strong>$59.00</strong>
+                    </p>
+
+                    <a href="#" class="add-to-cart">Add to Cart</a>
+
+                </article>
+
+
+                <!-- Product 3 -->
+                <article>
+
+                    <div class="product-media">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ25HGrVu8_KXM5y0vGmdxsOBXmknaap7O7SCUivtEqvLqRAus5j0VP9i2x&s=10"
+                            width="500" height="500" loading="lazy"
+                            alt="Adjustable Dumbbells set">
+                        <span class="badge">-14%</span>
+                    </div>
+
+                    <p>FITNESS</p>
+
+                    <h3>Adjustable Dumbbells</h3>
+
+                    <p class="rating" role="img" aria-label="Rated 5 out of 5 stars">
+                        ★★★★★
+                    </p>
+
+                    <p class="price">
+                        <strong>$119.00</strong>
+                        <del>$139.00</del>
+                    </p>
+
+                    <a href="#" class="add-to-cart">Add to Cart</a>
+
+                </article>
+
+
+                <!-- Product 4 -->
+                <article>
+
+                    <div class="product-media">
+                        <img
+                            src="https://toray-cfe.com/wp-content/uploads/2025/04/Tennis-Racket.jpg"
+                            width="500" height="500" loading="lazy"
+                            alt="Carbon Pro Racket">
+                    </div>
+
+                    <p>TENNIS</p>
+
+                    <h3>Carbon Pro Racket</h3>
+
+                    <p class="rating" role="img" aria-label="Rated 5 out of 5 stars">
+                        ★★★★★
+                    </p>
+
+                    <p class="price">
+                        <strong>$149.00</strong>
+                    </p>
+
+                    <a href="#" class="add-to-cart">Add to Cart</a>
+
+                </article>
+
+            </div>
+
+            <br>
+
+            <a href="#">VIEW ALL PRODUCTS →</a>
+
+        </section>
+
+
+        <!-- Special Offer -->
+        <section id="offers">
+
+            <div>
+
+                <p>LIMITED TIME OFFER</p>
+
+                <h2>
+                    Upgrade Your Training.
+                </h2>
+
+                <p>
+                    Save up to 50% on selected sports equipment.
+                    Don't miss our exclusive seasonal collection.
+                </p>
+
+                <a href="#shop">SHOP THE SALE →</a>
+
+            </div>
+
+        </section>
+
+
+        <!-- About -->
+        <section id="about">
+
+            <p>ABOUT ATHLETIX</p>
+
+            <h2>Built For Athletes</h2>
+
+            <p>
+                ATHLETIX is a premium sports equipment store created
+                for people who take their performance seriously.
+                From beginners to professional athletes, we provide
+                equipment designed to help you train better and
+                perform at your best.
+            </p>
+
+            <a href="#">LEARN MORE →</a>
+
+        </section>
+
+
+        <!-- Testimonials -->
+        <section id="reviews">
+
+            <p>ATHLETE REVIEWS</p>
+
+            <h2>Loved By Athletes</h2>
+
+            <article>
+
+                <p>
+                    "The quality of the equipment is outstanding.
+                    The football feels professional and delivery
+                    was incredibly fast."
+                </p>
+
+                <h3>Ahmed Khan</h3>
+                <p>Football Player</p>
+
+            </article>
+
+
+            <article>
+
+                <p>
+                    "I bought the fitness equipment for my home gym
+                    and I'm extremely happy with the quality."
+                </p>
+
+                <h3>Ryan Miller</h3>
+                <p>Fitness Coach</p>
+
+            </article>
+
+
+            <article>
+
+                <p>
+                    "Excellent tennis racket with great balance and
+                    control. Highly recommended."
+                </p>
+
+                <h3>Sarah Ali</h3>
+                <p>Tennis Player</p>
+
+            </article>
+
+        </section>
+
+
+        <!-- Newsletter -->
+        <section id="newsletter">
+
+            <p>STAY IN THE GAME</p>
+
+            <h2>Get 10% Off Your First Order</h2>
+
+            <p>
+                Subscribe to our newsletter for new products,
+                exclusive offers and sports updates.
+            </p>
+
+            <form id="newsletter-form" action="#" method="post" novalidate>
+
+                <label class="sr-only" for="email">
+                    Email Address
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    autocomplete="email"
+                    required>
+
+                <button type="submit">
+                    SUBSCRIBE
+                </button>
+
+            </form>
+
+            <p class="form-note" id="newsletter-note" role="status" aria-live="polite"></p>
+
+        </section>
+
+        <!-- Checkout -->
+        <section id="checkout" class="checkout-section" hidden>
+
+            <p>CHECKOUT</p>
+
+            <h2>Complete Your Order</h2>
+
+            <div class="checkout-layout">
+                <form id="checkout-form" class="checkout-form">
+                    <label for="checkout-name">Full Name</label>
+                    <input type="text" id="checkout-name" name="name" placeholder="Enter your full name" autocomplete="name" required>
+
+                    <label for="checkout-email">Email Address</label>
+                    <input type="email" id="checkout-email" name="email" placeholder="Enter your email address" autocomplete="email" required>
+
+                    <label for="checkout-phone">Phone Number</label>
+                    <input type="tel" id="checkout-phone" name="phone" placeholder="Enter your phone number" autocomplete="tel" required>
+
+                    <label for="checkout-address">Delivery Address</label>
+                    <textarea id="checkout-address" name="address" rows="4" placeholder="Enter your complete delivery address" autocomplete="street-address" required></textarea>
+
+                    <label for="checkout-location">City / Postal Code</label>
+                    <input type="text" id="checkout-location" name="location" placeholder="Enter your city and postal code" autocomplete="postal-code" required>
+
+                    <button type="submit">Place Order</button>
+                    <p class="form-note" id="checkout-note" role="status" aria-live="polite"></p>
+                </form>
+
+                <div class="checkout-summary">
+                    <h3>Order Summary</h3>
+                    <div id="checkout-items"></div>
+                    <strong id="checkout-total">Total: $0.00</strong>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer id="contact">
+
+        <div>
+
+            <h2>ATHLETIX</h2>
+
+            <p>
+                Premium sports equipment for the next generation
+                of athletes.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h3>Shop</h3>
+
+            <a href="#shop">Football</a><br>
+            <a href="#shop">Basketball</a><br>
+            <a href="#shop">Fitness</a><br>
+            <a href="#shop">Tennis</a><br>
+            <a href="#shop">New Arrivals</a>
+
+        </div>
+
+
+        <div>
+
+            <h3>Company</h3>
+
+            <a href="#about">About Us</a><br>
+            <a href="#about">Our Story</a><br>
+            <a href="#">Careers</a><br>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+
+        <div>
+
+            <h3>Customer Support</h3>
+
+            <a href="#">FAQ</a><br>
+            <a href="#">Shipping</a><br>
+            <a href="#">Returns</a><br>
+            <a href="#">Privacy Policy</a><br>
+            <a href="#">Terms & Conditions</a>
+
+        </div>
+
+
+        <div>
+
+            <h3>Follow Us</h3>
+
+            <a href="#" aria-label="ATHLETIX on Instagram">Instagram</a><br>
+            <a href="#" aria-label="ATHLETIX on Facebook">Facebook</a><br>
+            <a href="#" aria-label="ATHLETIX on YouTube">YouTube</a><br>
+            <a href="#" aria-label="ATHLETIX on TikTok">TikTok</a>
+
+        </div>
+
+
+        <hr>
+
+        <p>
+            © 2026 ATHLETIX. All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <button type="button" id="back-to-top" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
